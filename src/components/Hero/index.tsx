@@ -1,4 +1,4 @@
-import { ContainerGlobal } from '../../global'
+import { ContainerGlobal } from '../../styles'
 import { Formulario, TituloForm } from './Hero'
 
 const Hero = () => (

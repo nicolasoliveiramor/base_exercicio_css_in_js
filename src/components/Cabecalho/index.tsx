@@ -1,8 +1,12 @@
-import { CabecalhoHeader } from './Cabecalho'
+import { CabecalhoHeader, CabecalhoTitulo } from './Cabecalho'
+
+export type Props = {
+  fontSize?: number
+}
 
 const Cabecalho = () => (
   <CabecalhoHeader>
-    <h1>EBAC Jobs</h1>
+    <CabecalhoTitulo fontSize={36}>EBAC Jobs</CabecalhoTitulo>
   </CabecalhoHeader>
 )
 
